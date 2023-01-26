@@ -3,11 +3,5 @@
 
 Console.Write("Insert any number: ");
 int num = int.Parse(Console.ReadLine());
-if (num % 2 == 0) 
-{
-    Console.WriteLine("the number is even");
-}
-else
-{
-    Console.WriteLine("the number isn`t even");
-}
+if (num % 2 == 0) Console.WriteLine("YES, the number is even");
+else Console.WriteLine("NO, the number isn`t even");
