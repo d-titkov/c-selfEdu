@@ -8,7 +8,6 @@ int getNum(string text)
     int num = int.Parse(Console.ReadLine());
     return num;
 }
-
 void OutNumbers(int num)
 {
     int i=1;
@@ -19,7 +18,6 @@ void OutNumbers(int num)
         i++;
     }
 }
-
 // User`s data input
 int number = getNum("Input number: ");
 OutNumbers(number);
