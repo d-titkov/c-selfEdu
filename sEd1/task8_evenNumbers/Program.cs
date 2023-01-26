@@ -4,7 +4,7 @@
 Console.Write("insert a number N: ");
 int numberN = int.Parse(Console.ReadLine());
 int count = 2;
-while (count < numberN || count == numberN)
+while (count <= numberN)
 {
     Console.Write(count + ", ");
     count = count + 2;
