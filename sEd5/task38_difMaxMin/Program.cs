@@ -10,7 +10,7 @@
     int min = max;
     for (int index = 1; index < size; index++)
     {
-        arr[index] = new Random().Next(fNumber, lNumber + 1);
+        arr[index] = new Random().Next(fNumber, lNumber);
         if (arr[index] < min)
             min = arr[index];
         if (arr[index] > max)
